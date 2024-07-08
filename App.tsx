@@ -6,6 +6,7 @@ export default function App() {
     <>
     <SafeAreaView style={{backgroundColor: '#000',flex:1}}>
       <StatusBar backgroundColor={'#000'}/>
+      {/*Header Section */}
       <View style={styles.headerContainer}>
       <Text style={styles.header}>GROOVY</Text>
       </View>
@@ -18,7 +19,7 @@ const styles = StyleSheet.create({
   header: {
     color:'#fff',
     fontSize: 15,
-    fontWeight: 'bold'
+    fontFamily: 'Inter-VariableFont_slnt,wght'
   },
   headerContainer:{
     paddingVertical: 20,
